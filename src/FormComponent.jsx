@@ -69,9 +69,9 @@ export default function FormComponent() {
     <div>
       <h1>Test Technical Code</h1>
       <input type="text" value={inputValue} onChange={handleInputChange} />
-      <button onClick={handleGenerateTriangle}>Generate Triangle</button>
-      <button onClick={handleGenerateOdds}>Generate Odds</button>
-      <button onClick={handleGeneratePrimes}>Generate Primes</button>
+      <button onClick={handleGenerateTriangle}>Generate segitiga</button>
+      <button onClick={handleGenerateOdds}>Generate Bilangan Ganjil</button>
+      <button onClick={handleGeneratePrimes}>Generate Bilangan Prima</button>
       <div>
         <h2>Triangle</h2>
         <p>{renderWithLineBreaks(triangle)}</p>
